@@ -19,6 +19,7 @@ func main() {
 
 	fmt.Println(user)
 	ShowListStudent()
+	LoginHandler()
 	// jsonData, _ := json.Marshal(user)
 	// fmt.Println(string(jsonData))
 	// nhapLuong()
