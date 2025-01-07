@@ -17,20 +17,8 @@ func main() {
 		user.Age = 20
 	}
 
-	student := entity.Student{
-		ClassName: "DHKTPM18ATT",
-		Point: 20.5,
-		Person: entity.Person{
-			PersonID: "ID93812",
-			FullName: "Nguyen Anh Tung",
-			Age: 20,
-		},
-	}
-
 	fmt.Println(user)
-	fmt.Println(student)	
-	fmt.Println(student.Person.Age)
-
+	ShowListStudent()
 	// jsonData, _ := json.Marshal(user)
 	// fmt.Println(string(jsonData))
 	// nhapLuong()
